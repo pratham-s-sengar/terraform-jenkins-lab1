@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        ARM_CLIENT_ID       = credentials('AZURE_CLIENT_ID')  // Credentials ID in Jenkins
-        ARM_CLIENT_SECRET   = credentials('AZURE_CLIENT_SECRET')
-        ARM_TENANT_ID       = credentials('AZURE_TENANT_ID')
-        ARM_SUBSCRIPTION_ID = credentials('AZURE_SUBSCRIPTION_ID')
+        ARM_CLIENT_ID       = credentials('415843ea-36bb-4674-9ddf-7afc41978ee5')  // Credentials ID in Jenkins
+        ARM_CLIENT_SECRET   = credentials('4Ys8Q~QrKohFBztLKyqDI7IZ5rLOYpt2wR6eWb5n')
+        ARM_TENANT_ID       = credentials('41d41ded-1b6f-4e2f-a474-bfeadc70cb39')
+        ARM_SUBSCRIPTION_ID = credentials('a36a1195-88fa-4929-957f-e5274a6a346a')
     }
 
     stages {
